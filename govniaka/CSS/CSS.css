@@ -1,0 +1,233 @@
+
+field{
+	background: url(../photo/field.png);
+	background-size: cover;
+	width: 610px;
+    height: 340px;
+	display: block;
+}
+
+field player, field referee{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	position: fixed;
+	margin-top: -12px;
+}
+
+field referee{
+	background: url(../photo/Ref.png);
+	background-size: cover;
+	top: 150px;
+	left: 300px;
+	color: black;
+}
+
+field player {
+	width: 20px;
+	border: none;
+	border-radius: 0;
+	background-color: none;
+}
+
+field player:hover{
+	width: 30px;
+	height: 30px
+}
+
+field team#red-team player{
+	background: url(../photo/rt.png);
+	background-size: cover;
+	width:15px;
+	height:21px;
+}
+
+
+field team#blue-team player{
+	background: url(../photo/bt.png);
+	background-size: cover;
+	width:15px;
+	height:21px;
+}
+
+#player1-red.goalkeeperR{
+	background:url(../photo/RK.png);
+	background-size: cover;
+	top: 180px;
+	left: 30px;
+}
+
+
+#player2-red{
+	top: 50px;
+	left: 120px;
+}
+
+#player3-red{
+	top: 150px;
+	left: 120px;
+}
+
+#player4-red{
+	top: 250px;
+	left: 120px;
+}
+
+#player5-red{
+	top: 120px;
+	left: 250px;
+}
+#player6-red{
+	top: 110px;
+	left: 180px;
+}
+#player7-red{
+	top: 280px;
+	left: 200px;
+}
+#player8-red{
+	top: 200px;
+	left: 220px;
+}
+#player9-red{
+	top: 40px;
+	left:280px;
+}
+#player10-red{
+	top: 280px;
+	left: 40px;
+}
+#player11-red{
+	top: 270px;
+	left: 270px;
+	animation-name: goal;
+    animation-duration: 7s; 
+}
+
+
+
+#player1-blue.goalkeeperB{
+	background:url(../photo/BK.png);
+	background-size: cover;
+	top: 180px;
+	left: 580px;
+}
+
+
+#player2-blue{
+	top: 50px;
+	left: 480px;
+}
+
+#player3-blue{
+	top: 150px;
+	left: 480px;
+}
+
+#player4-blue{
+	top: 250px;
+	left: 480px;
+}
+
+#player5-blue{
+	top: 120px;
+	left: 350px;
+}
+#player6-blue{
+	top: 110px;
+	left: 420px;
+}
+#player7-blue{
+	top: 280px;
+	left: 400px;
+}
+#player8-blue{
+	top: 200px;
+	left: 380px;
+}
+#player9-blue{
+	top: 40px;
+	left:320px;
+}
+#player10-blue{
+	top: 280px;
+	left: 560px;
+}
+#player11-blue{
+	top: 270px;
+	left: 330px;
+}	
+.goalkeeperR {
+	background:url(../photo/RK.png);
+	background-size: cover;
+}
+.goalkeeperB {
+	background:url(../photo/BK.png);
+	background-size: cover;
+}
+.ball {
+    background:url(../photo/b.png);
+    background-size: cover;
+    width: 17px;
+    height: 17px;
+    animation-name: Nigga;
+    animation-duration: 6s;  
+    position: absolute;
+    top: 150px;
+    left: 300px;
+ }   
+ bench {
+ 	background: url(../photo/stul.png);
+ 	background-size: contain;
+ 	width: 40px;
+ 	height: 53px;
+ 	position: absolute;
+ 	top: 350px;
+ 	left: 450px; 
+}   
+banch {
+ 	background: url(../photo/stul2.png);
+ 	background-size: contain;
+ 	width: 39px;
+ 	height: 53px;
+ 	position: absolute;
+ 	top: 350px;
+ 	left: 150px; 
+}   
+
+
+ @-webkit-keyframes Nigga {
+   0% {left: 298px;top: 148px}
+   5% {left: 250px;top: 120px;}
+   20% {left: 200px;top: 280px;}
+   35% {left: 220px;top: 200px;}
+   60% {left: 180px;top: 110px;}
+   70% {left: 120px;top: 50px;}
+   80% {left: 280px;top: 40px;}
+   90% {left: 450px;top: 180px;}
+   100% {left: 590px;top: 200px;}
+ }
+ @-webkit-keyframes goal {
+   0% {right: 270px;top: 270px;}
+   100% {left: 450px;top: 180px;}
+ }
+ field dance {
+ 	background: url(../photo/1.gif);
+ 	background-size: contain;
+ 	-webkit-animation-name: dance;
+ 	-webkit-animation-duration: 5.5s;
+  	-webkit- animation-fill-mode: forwards;
+ 	display: block;  
+ 	left: 500px;
+    top: 50px;
+    height: 95px;  
+    width: 70px;
+    position: absolute;
+ }
+ @-webkit-keyframes dance {
+ 	from {background: url(../photo/1.gif); background-size: contain;}
+ 	to {background: transparent;}
+
+ }
